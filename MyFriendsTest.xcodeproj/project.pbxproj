@@ -11,7 +11,6 @@
 		95802EF123B647DE00629FD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95802EF023B647DE00629FD3 /* AppDelegate.swift */; };
 		95802EF323B647DE00629FD3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95802EF223B647DE00629FD3 /* SceneDelegate.swift */; };
 		95802EF823B647DE00629FD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95802EF623B647DE00629FD3 /* Main.storyboard */; };
-		95802EFB23B647DE00629FD3 /* MyFriendsTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95802EF923B647DE00629FD3 /* MyFriendsTest.xcdatamodeld */; };
 		95802EFD23B647E000629FD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95802EFC23B647E000629FD3 /* Assets.xcassets */; };
 		95802F0023B647E000629FD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95802EFE23B647E000629FD3 /* LaunchScreen.storyboard */; };
 		95802F0C23B6485A00629FD3 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95802F0823B6485A00629FD3 /* FriendsViewController.swift */; };
@@ -32,6 +31,7 @@
 		95802F2F23B6486400629FD3 /* Friend+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95802F2123B6486400629FD3 /* Friend+CoreDataProperties.swift */; };
 		95802F3023B6486400629FD3 /* Friend+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95802F2223B6486400629FD3 /* Friend+CoreDataClass.swift */; };
 		95802F3123B6486400629FD3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95802F2323B6486400629FD3 /* User.swift */; };
+		95802F3723B64B6D00629FD3 /* MyFriendsTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95802F3523B64B6D00629FD3 /* MyFriendsTest.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,7 +40,6 @@
 		95802EF023B647DE00629FD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95802EF223B647DE00629FD3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		95802EF723B647DE00629FD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		95802EFA23B647DE00629FD3 /* MyFriendsTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyFriendsTest.xcdatamodel; sourceTree = "<group>"; };
 		95802EFC23B647E000629FD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95802EFF23B647E000629FD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95802F0123B647E000629FD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,6 +61,7 @@
 		95802F2123B6486400629FD3 /* Friend+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Friend+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		95802F2223B6486400629FD3 /* Friend+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Friend+CoreDataClass.swift"; sourceTree = "<group>"; };
 		95802F2323B6486400629FD3 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		95802F3623B64B6D00629FD3 /* MyFriends.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyFriends.xcdatamodel; sourceTree = "<group>"; };
 		ABAE4421A54E548DB72B3578 /* Pods-MyFriendsTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFriendsTest.debug.xcconfig"; path = "Target Support Files/Pods-MyFriendsTest/Pods-MyFriendsTest.debug.xcconfig"; sourceTree = "<group>"; };
 		ED5BA3FC352B2904E6B0C594 /* Pods-MyFriendsTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFriendsTest.release.xcconfig"; path = "Target Support Files/Pods-MyFriendsTest/Pods-MyFriendsTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,6 +108,7 @@
 		95802EEF23B647DE00629FD3 /* MyFriendsTest */ = {
 			isa = PBXGroup;
 			children = (
+				95802F3523B64B6D00629FD3 /* MyFriendsTest.xcdatamodeld */,
 				95802EF023B647DE00629FD3 /* AppDelegate.swift */,
 				95802EF223B647DE00629FD3 /* SceneDelegate.swift */,
 				95802EF623B647DE00629FD3 /* Main.storyboard */,
@@ -118,7 +119,6 @@
 				95802F1523B6486400629FD3 /* Utils */,
 				95802EFE23B647E000629FD3 /* LaunchScreen.storyboard */,
 				95802F0123B647E000629FD3 /* Info.plist */,
-				95802EF923B647DE00629FD3 /* MyFriendsTest.xcdatamodeld */,
 			);
 			path = MyFriendsTest;
 			sourceTree = "<group>";
@@ -320,6 +320,7 @@
 				95802F2C23B6486400629FD3 /* UsersManager.swift in Sources */,
 				95802F2523B6486400629FD3 /* UserCell.swift in Sources */,
 				95802F2623B6486400629FD3 /* CustomImageView.swift in Sources */,
+				95802F3723B64B6D00629FD3 /* MyFriendsTest.xcdatamodeld in Sources */,
 				95802F3023B6486400629FD3 /* Friend+CoreDataClass.swift in Sources */,
 				95802F0D23B6485A00629FD3 /* UserDetailsViewController.swift in Sources */,
 				95802F2A23B6486400629FD3 /* NetworkManager.swift in Sources */,
@@ -329,7 +330,6 @@
 				95802F0E23B6485A00629FD3 /* SplashViewController.swift in Sources */,
 				95802F2823B6486400629FD3 /* CacheManager.swift in Sources */,
 				95802EF323B647DE00629FD3 /* SceneDelegate.swift in Sources */,
-				95802EFB23B647DE00629FD3 /* MyFriendsTest.xcdatamodeld in Sources */,
 				95802F2F23B6486400629FD3 /* Friend+CoreDataProperties.swift in Sources */,
 				95802F2923B6486400629FD3 /* PhoneFormatter.swift in Sources */,
 				95802F2E23B6486400629FD3 /* TableView.swift in Sources */,
@@ -536,12 +536,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		95802EF923B647DE00629FD3 /* MyFriendsTest.xcdatamodeld */ = {
+		95802F3523B64B6D00629FD3 /* MyFriendsTest.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				95802EFA23B647DE00629FD3 /* MyFriendsTest.xcdatamodel */,
+				95802F3623B64B6D00629FD3 /* MyFriends.xcdatamodel */,
 			);
-			currentVersion = 95802EFA23B647DE00629FD3 /* MyFriendsTest.xcdatamodel */;
+			currentVersion = 95802F3623B64B6D00629FD3 /* MyFriends.xcdatamodel */;
 			path = MyFriendsTest.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
